@@ -1,0 +1,17 @@
+def merge_dictionaries(*dicts):
+  result = dict()
+  for d in dicts:
+    result.update(d)
+  return result
+students1 = {
+  'Theodore': 10,
+  'Mathew': 11,
+}
+students2 = {
+  'Roxanne': 9
+}
+print("Original dictionaries:")
+print(students1)
+print(students2)
+print("\nMerge dictionaries:")
+print(merge_dictionaries(students1, students2))
