@@ -1,0 +1,9 @@
+def printIterator(it):
+    for x in it:
+        print(x, end=' ')
+    print('')
+def to_lowercase(str):
+    return str.lower()
+    
+result_iterator = map(to_lowercase, 'GOOD MORNING EVERYONE')
+printIterator(result_iterator)
