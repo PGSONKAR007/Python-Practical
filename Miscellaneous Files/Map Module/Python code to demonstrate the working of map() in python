@@ -1,0 +1,9 @@
+import math 
+
+def square_root(n):
+    return math.sqrt(n)
+  
+numbers = [16,36,100,4]
+result = map(square_root, numbers) #get the map object
+
+print(result) #we will get our map object
