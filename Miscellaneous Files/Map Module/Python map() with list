@@ -1,0 +1,11 @@
+def to_binary(num):
+    return bin(num)[2:]
+  
+def printIterator(it):
+    for x in it:
+        print(x, end=' ')
+    print('') 
+    
+
+bin_iterator = map(to_binary, [4,6,10])
+printIterator(bin_iterator)
